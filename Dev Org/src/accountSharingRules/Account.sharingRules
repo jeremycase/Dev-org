@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccountSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>SalesDirectorEMEAA185031</fullName>
+        <sharedTo>
+            <role>SalesDirectorEMEA185191</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CEO</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>Sales Director, EMEAA</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SalesEngineerA185031</fullName>
+        <sharedTo>
+            <role>SalesEngineer185191</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SalesDirectorEMEA185191</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>Sales EngineerA</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SalesEngineerA185032</fullName>
+        <sharedTo>
+            <role>SalesEngineer185191</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SalesDirectorUS185191</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>Sales EngineerA</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SalesOperationsD185031</fullName>
+        <sharedTo>
+            <roleAndSubordinates>SalesOperations185191</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SalesDirectorEMEA185191</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>Sales OperationsD</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SalesRepUSA185031</fullName>
+        <sharedTo>
+            <role>SalesRepUS185191</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CEO</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>None</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>Sales Rep, USA</name>
+        <opportunityAccessLevel>Read</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>VPServicesD185031</fullName>
+        <sharedTo>
+            <roleAndSubordinates>SVPCustomerServiceSupport</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CEO</roleAndSubordinates>
+        </sharedFrom>
+        <accountAccessLevel>Read</accountAccessLevel>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>VP ServicesD</name>
+        <opportunityAccessLevel>None</opportunityAccessLevel>
+    </ownerRules>
+</AccountSharingRules>

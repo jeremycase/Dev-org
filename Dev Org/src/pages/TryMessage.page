@@ -1,0 +1,7 @@
+<apex:page id="TryMessage" controller="TryMessage" action="{!ShowMessage}">
+    <apex:outputPanel rendered="{!isAlerting}" >
+        <script>
+            <apex:outputText value="{!AlertMessage}" escape="true" />
+        </script>
+    </apex:outputPanel>
+</apex:page>

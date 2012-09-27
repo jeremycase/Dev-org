@@ -1,0 +1,5 @@
+<apex:page controller="MyExampleController" > 
+    There are {!MyAccounts} Accounts
+    
+    
+</apex:page>

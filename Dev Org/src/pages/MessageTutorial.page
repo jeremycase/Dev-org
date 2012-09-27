@@ -1,0 +1,15 @@
+<apex:page controller="c03851510">
+    
+    <apex:form >
+        <apex:inputText value="{!Message}" />
+        <apex:commandButton value="Say it" action="{!SayIt}" rerender="SayHi" />
+    </apex:form>
+    <apex:outputPanel id="SayHi">
+        <apex:outputPanel rendered="{!isAlerting}" >
+            <script>
+                <apex:outputText value="{!AlertMessage}" escape="true" />
+            </script>
+            {!AlertTable}
+        </apex:outputPanel>
+    </apex:outputPanel>
+</apex:page>

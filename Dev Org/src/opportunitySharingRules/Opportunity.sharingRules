@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpportunitySharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>SalesDirectorEMEAA186321</fullName>
+        <sharedTo>
+            <role>SalesDirectorEMEA185191</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>VAR185191</role>
+        </sharedFrom>
+        <name>Sales Director, EMEAA</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+    <ownerRules>
+        <fullName>SalesDirectorUSA186321</fullName>
+        <sharedTo>
+            <role>SalesDirectorUS185191</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>VAR185191</role>
+        </sharedFrom>
+        <name>Sales Director, USA</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+</OpportunitySharingRules>

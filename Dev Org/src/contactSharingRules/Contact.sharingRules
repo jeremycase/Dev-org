@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContactSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>SalesDirectorUSD187091</fullName>
+        <sharedTo>
+            <roleAndSubordinates>SalesDirectorUS185191</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <role>VAR185191</role>
+        </sharedFrom>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>Sales Director, USD</name>
+    </ownerRules>
+    <ownerRules>
+        <fullName>VPServicesD187091</fullName>
+        <sharedTo>
+            <roleAndSubordinates>SVPCustomerServiceSupport</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CEO</roleAndSubordinates>
+        </sharedFrom>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>VP ServicesD</name>
+    </ownerRules>
+</ContactSharingRules>
